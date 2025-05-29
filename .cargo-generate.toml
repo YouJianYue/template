@@ -1,2 +1,4 @@
-[exclude]
-files = ["cliff.toml"]
+[template]
+exclude = [
+    "cliff.toml",
+]
