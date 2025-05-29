@@ -1,4 +1,7 @@
 [template]
 skip = [
-    "cliff.toml",
+    "cliff.toml.orig"
 ]
+
+[hooks]
+post-init = "cp cliff.toml.orig cliff.toml"
